@@ -1,7 +1,9 @@
 ! -- This points to the root Xresource file.
 ! -- #include "/etc/regolith/styles/cahuella/root"
 #include "/etc/regolith/styles/ubuntu/root"
+#include "i3-wm"
 Xft.dpi: 192
 rofi.dpi: 192
 St.font: mono:pixelsize=32:antialias=true:autohint=true:dpi=192
 rofi.theme: /usr/share/rofi/themes/Monokai.rasi
+desktop.wallpaper: ~/Pictures/wallpapers/wallpaper.jpg
