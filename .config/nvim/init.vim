@@ -373,8 +373,18 @@ let g:ale_fix_on_save = 1
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gy <Plug>(coc-type-definition)
-" nmap <silent> gh (call CocAction('jumpDefinition', 'vsplit'))
 nmap <silent> gt :call CocAction('jumpDefinition', 'tabe')<CR>
+
+" Use K to show documentation in preview window.
+nnoremap <silent> K :call <SID>show_documentation()<CR>
+
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  else
+    call CocAction('doHover')
+  endif
+endfunction
 
 nmap <silent> <TAB> <Plug>(coc-range-select)
 " Tagbar
