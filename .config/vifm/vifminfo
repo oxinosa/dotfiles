@@ -1,0 +1,136 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/krabos/
+	..
+1587599246
+'b
+	/home/krabos/bin/
+	..
+1587599246
+'h
+	/home/krabos/
+	..
+1587599246
+'z
+	/home/krabos/.config/vifm
+	..
+1587599246
+
+# Bookmarks:
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/krabos
+	Documents
+2
+d/home/krabos/Documents
+	..
+0
+d/home/krabos
+	Pictures
+5
+d/home/krabos/Pictures
+	..
+0
+d/home/krabos
+	..
+0
+d/home
+	krabos
+1
+d/home/krabos
+	Documents
+2
+d/home/krabos/Documents
+	..
+0
+d/home/krabos
+	Desktop
+1
+d/home/krabos/Desktop
+	..
+0
+d/home/krabos
+	Documents
+2
+d/home/krabos/Documents
+	..
+0
+d/home/krabos
+	Pictures
+5
+d/home/krabos/Pictures
+	wallpapers
+1
+d/home/krabos/Pictures/wallpapers
+	..
+0
+d/home/krabos/Pictures
+	..
+0
+d/home/krabos
+	Pictures
+5
+d/home/krabos/Pictures
+	wallpapers
+1
+d/home/krabos/Pictures/wallpapers
+	..
+0
+d/home/krabos/Pictures
+	..
+0
+d/home/krabos
+	Projects
+7
+d/home/krabos/Projects
+	webtoon-downloader
+2
+d/home/krabos/Projects/webtoon-downloader
+	test.pdf
+5
+d
+
+# Right window history (oldest to newest):
+D/home/krabos
+	..
+0
+D
+
+# Command line history (oldest to newest):
+:help
+:rename
+:q
+
+# Search history (oldest to newest):
+
+# Prompt history (oldest to newest):
+
+# Local filter history (oldest to newest):
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+
+# State:
+f
+i1
+[.1
+[F
+F
+I1
+].1
+]F
+s0
