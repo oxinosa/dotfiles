@@ -45,6 +45,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mhinz/vim-startify'
+Plug 'morhetz/gruvbox'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -150,7 +151,7 @@ set number relativenumber
 set nu rnu
 
 let no_buffers_menu=1
-silent! colorscheme molokai
+silent! colorscheme gruvbox
 
 set mousemodel=popup
 set t_Co=256
@@ -368,6 +369,14 @@ let g:ale_sign_error = '❌'
 let g:ale_sign_warning = '⚠️'
 let g:ale_fix_on_save = 1
 
+" coc
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gy <Plug>(coc-type-definition)
+" nmap <silent> gh (call CocAction('jumpDefinition', 'vsplit'))
+nmap <silent> gt :call CocAction('jumpDefinition', 'tabe')<CR>
+
+nmap <silent> <TAB> <Plug>(coc-range-select)
 " Tagbar
 nmap <silent> <F4> :TagbarToggle<CR>
 let g:tagbar_autofocus = 1
