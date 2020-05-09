@@ -375,6 +375,7 @@ let g:UltiSnipsEditSplit="vertical"
 let g:ale_fixers = {
 \   'javascript': ['prettier'],
 \   'css': ['prettier'],
+\   'typescript': ['prettier'],
 \}
 let g:ale_sign_error = '❌'
 let g:ale_sign_warning = '⚠️'
@@ -397,7 +398,7 @@ function! s:show_documentation()
   endif
 endfunction
 
-nmap <silent> <TAB> <Plug>(coc-range-select)
+" nmap <silent> <TAB> <Plug>(coc-range-select)
 " Tagbar
 nmap <silent> <F4> :TagbarToggle<CR>
 let g:tagbar_autofocus = 1
@@ -491,9 +492,9 @@ endif
 if !exists('g:airline_powerline_fonts')
   let g:airline#extensions#tabline#left_sep = ' '
   let g:airline#extensions#tabline#left_alt_sep = '|'
-  let g:airline_left_sep          = '▶'
+  let g:airline_left_sep          = ''
   let g:airline_left_alt_sep      = '»'
-  let g:airline_right_sep         = '◀'
+  let g:airline_right_sep         = ''
   let g:airline_right_alt_sep     = '«'
   let g:airline#extensions#branch#prefix     = '⤴' "➔, ➥, ⎇
   let g:airline#extensions#readonly#symbol   = '⊘'

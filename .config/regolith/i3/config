@@ -361,31 +361,6 @@ set_from_resource $i3-wm.bar.stripworkspacenumbers i3-wm.bar.stripworkspacenumbe
 # i3xrocks config file. Override this for custom status indicators on the bar.
 set_from_resource $i3-wm.i3xrocks.config i3-wm.i3xrocks.config "/etc/regolith/i3xrocks/config"
 
-# The bar configuration
-# bar {
-#  position $i3-wm.bar.position
-#  font $i3-wm.bar.font
-#  separator_symbol $i3-wm.bar.separator
-#  status_command i3xrocks -c $i3-wm.i3xrocks.config
-#  tray_output $i3-wm.bar.trayoutput
-#  strip_workspace_numbers $i3-wm.bar.stripworkspacenumbers
-#
-#  colors {
-#      background $i3-wm.bar.background.color
-#      statusline $i3-wm.bar.statusline.color
-#      separator  $i3-wm.bar.separator.color
-#
-#                        BORDER  BACKGROUND TEXT
-#      focused_workspace  $i3-wm.bar.workspace.focused.border.color      $i3-wm.bar.workspace.focused.background.color   $i3-wm.bar.workspace.focused.text.color
-#      active_workspace   $i3-wm.bar.workspace.active.border.color       $i3-wm.bar.workspace.active.background.color    $i3-wm.bar.workspace.active.text.color
-#      inactive_workspace $i3-wm.bar.workspace.inactive.border.color     $i3-wm.bar.workspace.inactive.background.color  $i3-wm.bar.workspace.inactive.text.color
-#      urgent_workspace   $i3-wm.bar.workspace.urgent.border.color       $i3-wm.bar.workspace.urgent.background.color    $i3-wm.bar.workspace.urgent.text.color
-#  }
-#}
-
-# The following exec calls run programs in the background when i3 starts.
-
-# Start the installed regolith-compositor
 exec --no-startup-id /usr/share/regolith-compositor/init
 
 # Start Rofication for notifications
